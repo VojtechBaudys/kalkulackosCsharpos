@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kalkulackosCsharpos", "kalkulackosCsharpos\kalkulackosCsharpos.csproj", "{CADC903F-E84F-4C8D-9382-64FE3893907F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CADC903F-E84F-4C8D-9382-64FE3893907F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADC903F-E84F-4C8D-9382-64FE3893907F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADC903F-E84F-4C8D-9382-64FE3893907F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADC903F-E84F-4C8D-9382-64FE3893907F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
