@@ -9,8 +9,7 @@
         MinWidth="300"
         Title="Kalkulackos" Height="500" Width="300"
         Padding="20"
-        Background="LightPink"
->
+        Background="LightPink">
     
     <Grid>
         <Grid.ColumnDefinitions>
@@ -32,66 +31,61 @@
             <TextBlock x:Name="MyDisplay" Text="123" FontSize="60" Foreground="WhiteSmoke" HorizontalAlignment="Right" VerticalAlignment="Bottom" Padding="0 0 0 5"></TextBlock>
         </Border>
         
-        <Border Grid.Column="0" Grid.Row="1">
-            <Button Click="ButtonBase" Content="C"></Button>
-        </Border>
-        <Border Grid.Column="1" Grid.Row="1">
-            <Button Click="ButtonBase" Content="+/-"></Button>
+        <Border Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+            <Button Click="ButtonNewMathProblem" Content="C"></Button>
         </Border>
         <Border Grid.Column="2" Grid.Row="1">
-            <Button Click="ButtonBase" Content="%"></Button>
+            <Button Tag="*" Click="ButtonBase" Content="×"></Button>
         </Border>
         <Border Grid.Column="3" Grid.Row="1">
-                <Button Click="ButtonBase" Content="÷"></Button>
+            <Button Tag="/" Click="ButtonBase" Content="÷"></Button>
         </Border>
         
         <Border Grid.Column="0" Grid.Row="2">
-            <Button Click="ButtonBase" Content="7"></Button>
+            <Button Tag="7" Click="ButtonBase" Content="7"></Button>
         </Border>
         <Border Grid.Column="1" Grid.Row="2">
-            <Button Click="ButtonBase" Content="8"></Button>
+            <Button Tag="8" Click="ButtonBase" Content="8"></Button>
         </Border>
         <Border Grid.Column="2" Grid.Row="2">
-            <Button Click="ButtonBase" Content="9"></Button>
+            <Button Tag="9" Click="ButtonBase" Content="9"></Button>
         </Border>
         <Border Grid.Column="3" Grid.Row="2">
-            <Button Click="ButtonBase" Content="×"></Button>
+            <Button Tag="-" Click="ButtonBase" Content="-"></Button>
         </Border>
         
         <Border Grid.Column="0" Grid.Row="3">
-            <Button Click="ButtonBase" Content="4"></Button>
+            <Button Tag="4" Click="ButtonBase" Content="4"></Button>
         </Border>
         <Border Grid.Column="1" Grid.Row="3">
-            <Button Click="ButtonBase" Content="5"></Button>
+            <Button Tag="5" Click="ButtonBase" Content="5"></Button>
         </Border>
         <Border Grid.Column="2" Grid.Row="3">
-            <Button Click="ButtonBase" Content="6"></Button>
+            <Button Tag="6" Click="ButtonBase" Content="6"></Button>
         </Border>
         <Border Grid.Column="3" Grid.Row="3">
-            <Button Click="ButtonBase" Content="-"></Button>
+            <Button Tag="+" Click="ButtonBase" Content="+"></Button>
         </Border>
         
         <Border Grid.Column="0" Grid.Row="4">
-            <Button Click="ButtonBase" Content="1"></Button>
+            <Button Tag="1" Click="ButtonBase" Content="1"></Button>
         </Border>
         <Border Grid.Column="1" Grid.Row="4">
-            <Button Click="ButtonBase" Content="2"></Button>
+            <Button Tag="2" Click="ButtonBase" Content="2"></Button>
         </Border>
         <Border Grid.Column="2" Grid.Row="4">
-            <Button Click="ButtonBase" Content="3"></Button>
+            <Button Tag="3" Click="ButtonBase" Content="3"></Button>
         </Border>
-        <Border Grid.Column="3" Grid.Row="4">
-            <Button Click="ButtonBase" Content="+"></Button>
+        <Border Grid.Column="3" Grid.Row="4" Grid.RowSpan="2">
+            <Button Click="ButtonEvaluate" Content="="></Button>
         </Border>
 
         <Border Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2">
-            <Button Click="ButtonBase" Content="0"></Button>
+            <Button Tag="0" Click="ButtonBase" Content="0"></Button>
         </Border>
         <Border Grid.Column="2" Grid.Row="5">
             <Button Click="ButtonBase" Content="."></Button>
         </Border>
-        <Border Grid.Column="3" Grid.Row="5">
-            <Button Click="ButtonEvaluate" Content="="></Button>
-        </Border>
+        
     </Grid>
 </Window>

@@ -8,38 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\baudyvo20\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
+    "C:\\Users\\vojta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\baudyvo20\\DiaryApp\\kalkulackosCsharpos\\kalkulackosCsharpos\\kalkulackosCsharpos.csproj",
+      "projectUniqueName": "C:\\Users\\vojta\\RiderProjects\\kalkulackosCsharpos\\kalkulackosCsharpos\\kalkulackosCsharpos.csproj",
       "projectName": "kalkulackosCsharpos",
-      "projectPath": "C:\\Users\\baudyvo20\\DiaryApp\\kalkulackosCsharpos\\kalkulackosCsharpos\\kalkulackosCsharpos.csproj",
-      "packagesPath": "C:\\Users\\baudyvo20\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\baudyvo20\\DiaryApp\\kalkulackosCsharpos\\kalkulackosCsharpos\\obj\\",
+      "projectPath": "C:\\Users\\vojta\\RiderProjects\\kalkulackosCsharpos\\kalkulackosCsharpos\\kalkulackosCsharpos.csproj",
+      "packagesPath": "C:\\Users\\vojta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vojta\\RiderProjects\\kalkulackosCsharpos\\kalkulackosCsharpos\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
-      ],
       "configFilePaths": [
-        "C:\\Users\\baudyvo20\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WPF.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\vojta\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

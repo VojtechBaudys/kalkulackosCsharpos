@@ -3,25 +3,25 @@
 namespace kalkulackosCsharpos.Entity;
 public class MathProblem
 {
-	private string _text;
+	private string _problem;
 	
 	public MathProblem()
 	{
-		_text = "";
+		_problem = "";
 	}
 
 	public void AddToText(string character)
 	{
-		_text += character;
+		_problem += character;
 	}
 
-	public int Evaluate()
+	public string Evaluate()
 	{
 		DataTable dt = new DataTable();
 
-		int result = (int)dt.Compute(_text, "");
-		_text = result.ToString();
+		var result = dt.Compute(_problem, "");
+		_problem = result.ToString()!;
 		
-		return result;
+		return _problem;
 	}
 }

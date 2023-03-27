@@ -26,15 +26,19 @@ namespace kalkulackosCsharpos
 		private void ButtonBase(object sender, RoutedEventArgs e)
 		{
 			Button element = (Button)sender;
-			string content = (string)element.Content;
-			MyDisplay.Text += content;
-			_mathProblem.AddToText(content);
+			MyDisplay.Text += (string)element.Content;
+			_mathProblem.AddToText((string)element.Tag);
 		}
 		
 		private void ButtonEvaluate(object sender, RoutedEventArgs e)
 		{
-			int result = _mathProblem.Evaluate();
-			MyDisplay.Text = result.ToString();
+			string result = _mathProblem.Evaluate();
+			MyDisplay.Text = result;
+		}
+
+		private void ButtonNewMathProblem(object sender, RoutedEventArgs e)
+		{
+			CreateNewMathProblem();
 		}
 	}
 }
