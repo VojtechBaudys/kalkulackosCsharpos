@@ -28,72 +28,70 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        
-        
-        <Border Grid.ColumnSpan="4" Background="LightPink">
-            <TextBlock Text="123" FontSize="60" Foreground="WhiteSmoke" HorizontalAlignment="Right" VerticalAlignment="Bottom" Padding="0 0 0 5"></TextBlock>
+        <Border Grid.ColumnSpan="4">
+            <TextBlock x:Name="MyDisplay" Text="123" FontSize="60" Foreground="WhiteSmoke" HorizontalAlignment="Right" VerticalAlignment="Bottom" Padding="0 0 0 5"></TextBlock>
         </Border>
         
         <Border Grid.Column="0" Grid.Row="1">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="C"></Button>
+            <Button Click="ButtonBase" Content="C"></Button>
         </Border>
         <Border Grid.Column="1" Grid.Row="1">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="+/-"></Button>
+            <Button Click="ButtonBase" Content="+/-"></Button>
         </Border>
         <Border Grid.Column="2" Grid.Row="1">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="%"></Button>
+            <Button Click="ButtonBase" Content="%"></Button>
         </Border>
         <Border Grid.Column="3" Grid.Row="1">
-                <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="÷"></Button>
+                <Button Click="ButtonBase" Content="÷"></Button>
         </Border>
         
         <Border Grid.Column="0" Grid.Row="2">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="7"></Button>
+            <Button Click="ButtonBase" Content="7"></Button>
         </Border>
         <Border Grid.Column="1" Grid.Row="2">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="8"></Button>
+            <Button Click="ButtonBase" Content="8"></Button>
         </Border>
         <Border Grid.Column="2" Grid.Row="2">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="9"></Button>
+            <Button Click="ButtonBase" Content="9"></Button>
         </Border>
         <Border Grid.Column="3" Grid.Row="2">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="×"></Button>
+            <Button Click="ButtonBase" Content="×"></Button>
         </Border>
         
         <Border Grid.Column="0" Grid.Row="3">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="4"></Button>
+            <Button Click="ButtonBase" Content="4"></Button>
         </Border>
         <Border Grid.Column="1" Grid.Row="3">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="5"></Button>
+            <Button Click="ButtonBase" Content="5"></Button>
         </Border>
         <Border Grid.Column="2" Grid.Row="3">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="6"></Button>
+            <Button Click="ButtonBase" Content="6"></Button>
         </Border>
         <Border Grid.Column="3" Grid.Row="3">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="-"></Button>
+            <Button Click="ButtonBase" Content="-"></Button>
         </Border>
         
         <Border Grid.Column="0" Grid.Row="4">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="1"></Button>
+            <Button Click="ButtonBase" Content="1"></Button>
         </Border>
         <Border Grid.Column="1" Grid.Row="4">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="2"></Button>
+            <Button Click="ButtonBase" Content="2"></Button>
         </Border>
         <Border Grid.Column="2" Grid.Row="4">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="3"></Button>
+            <Button Click="ButtonBase" Content="3"></Button>
         </Border>
         <Border Grid.Column="3" Grid.Row="4">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="+"></Button>
+            <Button Click="ButtonBase" Content="+"></Button>
         </Border>
 
         <Border Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="0"></Button>
+            <Button Click="ButtonBase" Content="0"></Button>
         </Border>
         <Border Grid.Column="2" Grid.Row="5">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="."></Button>
+            <Button Click="ButtonBase" Content="."></Button>
         </Border>
         <Border Grid.Column="3" Grid.Row="5">
-            <Button FontSize="25" Foreground="WhiteSmoke" BorderBrush="transparent" Background="HotPink" Content="="></Button>
+            <Button Click="ButtonEvaluate" Content="="></Button>
         </Border>
     </Grid>
 </Window>

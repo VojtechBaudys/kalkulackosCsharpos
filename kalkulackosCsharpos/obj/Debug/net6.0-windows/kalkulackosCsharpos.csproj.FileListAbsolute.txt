@@ -19,3 +19,4 @@ C:\Users\baudyvo20\DiaryApp\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\ne
 C:\Users\baudyvo20\DiaryApp\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\net6.0-windows\kalkulackosCsharpos.pdb
 C:\Users\baudyvo20\DiaryApp\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\net6.0-windows\kalkulackosCsharpos.genruntimeconfig.cache
 C:\Users\baudyvo20\DiaryApp\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\net6.0-windows\ref\kalkulackosCsharpos.dll
+C:\Users\baudyvo20\DiaryApp\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\net6.0-windows\App.baml

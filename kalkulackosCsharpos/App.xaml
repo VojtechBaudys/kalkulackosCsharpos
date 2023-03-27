@@ -6,9 +6,11 @@
     <Application.Resources>
         <ResourceDictionary>
             
-            <Style x:Key="ButtonKrasny" TargetType="Button">
-                <Setter Property="FontSize" Value="15" />
-                <Setter Property="FontWeight" Value="ExtraBold" />
+            <Style TargetType="Button">
+                <Setter Property="FontSize" Value="25" />
+                <Setter Property="Foreground" Value="WhiteSmoke" />
+                <Setter Property="Background" Value="HotPink" />
+                <Setter Property="BorderBrush" Value="Transparent" />
             </Style>
             
         </ResourceDictionary>

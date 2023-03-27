@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using kalkulackosCsharpos.Entity;
 
 namespace kalkulackosCsharpos
 {
@@ -20,9 +10,31 @@ namespace kalkulackosCsharpos
 	/// </summary>
 	public partial class MainWindow : Window
 	{
+		private MathProblem _mathProblem;
 		public MainWindow()
 		{
 			InitializeComponent();
+			CreateNewMathProblem();
+		}
+
+		private void CreateNewMathProblem()
+		{
+			_mathProblem = new MathProblem();
+			MyDisplay.Text = "";
+		}
+
+		private void ButtonBase(object sender, RoutedEventArgs e)
+		{
+			Button element = (Button)sender;
+			string content = (string)element.Content;
+			MyDisplay.Text += content;
+			_mathProblem.AddToText(content);
+		}
+		
+		private void ButtonEvaluate(object sender, RoutedEventArgs e)
+		{
+			int result = _mathProblem.Evaluate();
+			MyDisplay.Text = result.ToString();
 		}
 	}
 }
