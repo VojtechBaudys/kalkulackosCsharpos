@@ -52,7 +52,7 @@ public class MathProblem
 		}
 		catch
 		{
-			result = "ERROR";
+			result = "ERROR UwU";
 			_problem = "";
 		}
 		
