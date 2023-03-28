@@ -42,3 +42,12 @@ C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\n
 C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\net6.0-windows\kalkulackosCsharpos.pdb
 C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\net6.0-windows\kalkulackosCsharpos.genruntimeconfig.cache
 C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\net6.0-windows\ref\kalkulackosCsharpos.dll
+C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\bin\Debug\net6.0-windows\ControlzEx.dll
+C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\bin\Debug\net6.0-windows\MahApps.Metro.dll
+C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\bin\Debug\net6.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\net6.0-windows\kalkulackosCsharpos.csproj.CopyComplete
+C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\obj\Debug\net6.0-windows\kalkulackosCsharpos_Content.g.cs
+C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\bin\Debug\net6.0-windows\Images\Penizky.ico
+C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\bin\Debug\net6.0-windows\WpfAnimatedGif.dll
+C:\Users\vojta\RiderProjects\kalkulackosCsharpos\kalkulackosCsharpos\bin\Debug\net6.0-windows\Images\Display.gif

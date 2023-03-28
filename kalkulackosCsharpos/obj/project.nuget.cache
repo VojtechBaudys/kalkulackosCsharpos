@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "i7phqMONPE5zwWC9NFHZQoPm61u2lOYQt5Pvvspt3rVArZCnVMvLuXafRFfvtACHIDAT47cnNZPJ+osJhIHGcw==",
+  "dgSpecHash": "V5r2JJGBLWp2wVDXxE0Lahovl/MDkWoyrPUnrZsbkmfzPhgd1BDCAPLyf0tQ8UN+9UHF9tYnmRAvR9mMiLEfCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\vojta\\RiderProjects\\kalkulackosCsharpos\\kalkulackosCsharpos\\kalkulackosCsharpos.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vojta\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\vojta\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
+    "C:\\Users\\vojta\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\vojta\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\vojta\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
